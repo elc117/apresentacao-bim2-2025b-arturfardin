@@ -1,6 +1,6 @@
 
 # Conceitos estudados
-## Palavra-chave super, toString() e @Override
+## Palavra-chave super e toString()
  `Super:` É uma palavra-chave utilizada em certas situações quando queremos nos referir à classe "mãe". Ela nos permite utilizar métodos, chamar construtores e até acessar campos da classe principal.
 #### Exemplo
 ```
@@ -19,27 +19,6 @@ public String toString() {
   }
 ```
 Aqui podemos ver como seria um método toString().
-
-`@Override: `É uma anotação que permite sobrescrever um método e editá-lo especificamente para outra classe "filha".
-#### Exemplo
-```
-// Método message() da classe Assignment
-public String message() {
-    return "Assignment " + this.description + " is " + status()
-  }
-
-// Método message() da classe GroupAssignment
-
-@Override
-public String message() {
-  if(this.pending == false){
-    return super.message();
-  } else {
-    return "Group " + super.message() + "- call " + this.teamMates;
-  }
-}
-```
-Aqui vemos a utilização do @Override na prática. O método message já existe na classe Assignments, porém, para não precisar criar um novo método, utilizamos o método da classe principal com algumas alterações.
 
 ## Parte 1
 Na parte 1, precisamos analisar um código de gerenciamento de tarefas e complementar o que estava faltando, além de corrigir possíveis erros.
