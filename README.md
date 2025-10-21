@@ -62,7 +62,17 @@ public GroupAssignment(LocalDate dueDate, String description, String teamMates) 
     this.teamMates = teamMates;
 }
 ```
-A última etapa foi criar um método que contasse quantas tarefas foram concluídas.
+A última etapa foi criar um código que contasse quantas tarefas foram concluídas.
+
+```
+    for (Assignment item : list){
+      if (item.pending == false){
+        vezes++;
+      }
+    }
+    System.out.println("==> Completed assignments: " + vezes);
+  }
+```
 
 *Parte facil*: Criação do método toString().
 *Parte não tão facil*: Perceber que compareTo não retorna o valor de dias entre duas datas.
