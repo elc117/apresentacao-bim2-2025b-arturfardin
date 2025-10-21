@@ -145,6 +145,18 @@ Essa operação faz a verificação da lista: ela compara as respostas do usuár
 https://github.com/user-attachments/assets/6fec353d-0e1a-4642-b5f5-d47359cd3005
 
 
+## Referências
+
+https://pt.stackoverflow.com/questions/66563/para-que-serve-fun%C3%A7%C3%A3o-super
+https://www.w3schools.com/java/ref_keyword_super.asp
+http://www.mauda.com.br/?p=1472
+https://pt.stackoverflow.com/questions/22913/qual-a-finalidade-da-override
+https://pt.stackoverflow.com/questions/98324/calcular-diferen%C3%A7a-entre-datas
+https://pt.stackoverflow.com/questions/212754/qual-%C3%A9-a-fun%C3%A7%C3%A3o-do-m%C3%A9todo-tostring
+
+
+
+
 
 
 
